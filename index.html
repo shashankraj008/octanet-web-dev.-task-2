@@ -1,0 +1,36 @@
+<div id="myDIV" class="header">
+    <h2>My To Do List</h2>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="newElement()" class="addBtn">Add</span>
+  </div>
+  
+  <ul id="myUL">
+    <li>Hit the gym</li>
+    <li class="checked">Pay bills</li>
+    <li>Meet George</li>
+    <li>Buy eggs</li>
+    <li>Read a book</li>
+    <li>Organize office</li>
+  </ul>
+  
+  <!-- Category dropdown -->
+  <select id="category">
+    <option value="">Select Category</option>
+    <option value="Work">Work</option>
+    <option value="Personal">Personal</option>
+    <option value="Shopping">Shopping</option>
+  </select>
+  
+  <!-- Priority dropdown -->
+  <select id="priority">
+    <option value="">Select Priority</option>
+    <option value="High">High</option>
+    <option value="Medium">Medium</option>
+    <option value="Low">Low</option>
+  </select>
+  
+  <!-- Due date input -->
+  <input type="date" id="dueDate" placeholder="Due Date">
+  
+  <!-- Task list container -->
+  <div id="taskList"></div>
